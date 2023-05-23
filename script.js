@@ -1,4 +1,4 @@
-var headers = { 'content-type': 'application/json'};
+const headers = { 'content-type': 'application/json'};
 const dataConessoElement = document.getElementById('data-elements');
 const apiUrl = dataConessoElement.getAttribute('data-api');
 const uid = dataConessoElement.getAttribute('data-uid');
