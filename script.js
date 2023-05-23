@@ -1,9 +1,9 @@
-const dataElement = document.getElementById('data-elements')
-const apiUrl = dataElement.getAttribute('data-api')
+const dataConessoElement = document.getElementById('data-elements')
+const apiUrl = dataConessoElement.getAttribute('data-api')
 const headers = { 'content-type': 'application/json', }
-const uid = dataElement.getAttribute('data-uid')
-const redirectUrl = dataElement.getAttribute('data-redirectUrl')
-const isListOptional = dataElement.getAttribute('data-isListOptional')
+const uid = dataConessoElement.getAttribute('data-uid')
+const redirectUrl = dataConessoElement.getAttribute('data-redirectUrl')
+const isListOptional = dataConessoElement.getAttribute('data-isListOptional')
 const elements = document.querySelectorAll('form [id^="field"]');
 const fieldsCount = elements.length / 2;
 const listElements = document.querySelectorAll('form [id^="list"]')
